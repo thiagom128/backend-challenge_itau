@@ -3,8 +3,8 @@ Está é uma API para validação de senha onde será validado conforme critéri
 
 # Regras 
 
-Nove ou mais caracteres
-Ao menos 1 dígito
+1.Nove ou mais caracteres
+2. Ao menos 1 dígito
 Ao menos 1 letra minúscula
 Ao menos 1 letra maiúscula
 Ao menos 1 caractere especial
