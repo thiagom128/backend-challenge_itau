@@ -1,0 +1,6 @@
+C:\Projetos_Israel\RepositoryGit\WebApiValidaSenhaForte\src\Api.Application\obj\Debug\netcoreapp3.1\Application.csprojAssemblyReference.cache
+C:\Projetos_Israel\RepositoryGit\WebApiValidaSenhaForte\src\Api.Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfoInputs.cache
+C:\Projetos_Israel\RepositoryGit\WebApiValidaSenhaForte\src\Api.Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfo.cs
+C:\Projetos_Israel\RepositoryGit\WebApiValidaSenhaForte\src\Api.Application\obj\Debug\netcoreapp3.1\Application.csproj.CoreCompileInputs.cache
+C:\Projetos_Israel\RepositoryGit\WebApiValidaSenhaForte\src\Api.Application\obj\Debug\netcoreapp3.1\Application.MvcApplicationPartsAssemblyInfo.cs
+C:\Projetos_Israel\RepositoryGit\WebApiValidaSenhaForte\src\Api.Application\obj\Debug\netcoreapp3.1\Application.MvcApplicationPartsAssemblyInfo.cache

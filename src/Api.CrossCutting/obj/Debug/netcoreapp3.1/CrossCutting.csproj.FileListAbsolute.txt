@@ -1,0 +1,7 @@
+C:\source\net\Estudos\Projetos\Propay\Framework\Service\Autenticacao\src\Api.CrossCutting\bin\Debug\netcoreapp3.1\CrossCutting.deps.json
+C:\source\net\Estudos\Projetos\Propay\Framework\Service\Autenticacao\src\Api.CrossCutting\bin\Debug\netcoreapp3.1\CrossCutting.dll
+C:\source\net\Estudos\Projetos\Propay\Framework\Service\Autenticacao\src\Api.CrossCutting\bin\Debug\netcoreapp3.1\CrossCutting.pdb
+C:\source\net\Estudos\Projetos\Propay\Framework\Service\Autenticacao\src\Api.CrossCutting\obj\Debug\netcoreapp3.1\CrossCutting.AssemblyInfoInputs.cache
+C:\source\net\Estudos\Projetos\Propay\Framework\Service\Autenticacao\src\Api.CrossCutting\obj\Debug\netcoreapp3.1\CrossCutting.AssemblyInfo.cs
+C:\source\net\Estudos\Projetos\Propay\Framework\Service\Autenticacao\src\Api.CrossCutting\obj\Debug\netcoreapp3.1\CrossCutting.dll
+C:\source\net\Estudos\Projetos\Propay\Framework\Service\Autenticacao\src\Api.CrossCutting\obj\Debug\netcoreapp3.1\CrossCutting.pdb

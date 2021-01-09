@@ -1,0 +1,364 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Projetos_Israel\\RepositoryGit\\WebApiValidaSenhaForte\\src\\Api.Application\\Application.csproj": {}
+  },
+  "projects": {
+    "C:\\Projetos_Israel\\RepositoryGit\\WebApiValidaSenhaForte\\src\\Api.Application\\Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projetos_Israel\\RepositoryGit\\WebApiValidaSenhaForte\\src\\Api.Application\\Application.csproj",
+        "projectName": "Application",
+        "projectPath": "C:\\Projetos_Israel\\RepositoryGit\\WebApiValidaSenhaForte\\src\\Api.Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\ext.ipariz.PROPAY\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos_Israel\\RepositoryGit\\WebApiValidaSenhaForte\\src\\Api.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ext.ipariz.PROPAY\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Projetos_Israel\\RepositoryGit\\WebApiValidaSenhaForte\\src\\Api.CrossCutting\\CrossCutting.csproj": {
+                "projectPath": "C:\\Projetos_Israel\\RepositoryGit\\WebApiValidaSenhaForte\\src\\Api.CrossCutting\\CrossCutting.csproj"
+              },
+              "C:\\Projetos_Israel\\RepositoryGit\\WebApiValidaSenhaForte\\src\\Api.Domain\\Domain.csproj": {
+                "projectPath": "C:\\Projetos_Israel\\RepositoryGit\\WebApiValidaSenhaForte\\src\\Api.Domain\\Domain.csproj"
+              },
+              "C:\\Projetos_Israel\\RepositoryGit\\WebApiValidaSenhaForte\\src\\Api.Service\\Service.csproj": {
+                "projectPath": "C:\\Projetos_Israel\\RepositoryGit\\WebApiValidaSenhaForte\\src\\Api.Service\\Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projetos_Israel\\RepositoryGit\\WebApiValidaSenhaForte\\src\\Api.CrossCutting\\CrossCutting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projetos_Israel\\RepositoryGit\\WebApiValidaSenhaForte\\src\\Api.CrossCutting\\CrossCutting.csproj",
+        "projectName": "CrossCutting",
+        "projectPath": "C:\\Projetos_Israel\\RepositoryGit\\WebApiValidaSenhaForte\\src\\Api.CrossCutting\\CrossCutting.csproj",
+        "packagesPath": "C:\\Users\\ext.ipariz.PROPAY\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos_Israel\\RepositoryGit\\WebApiValidaSenhaForte\\src\\Api.CrossCutting\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ext.ipariz.PROPAY\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Projetos_Israel\\RepositoryGit\\WebApiValidaSenhaForte\\src\\Api.Data\\Data.csproj": {
+                "projectPath": "C:\\Projetos_Israel\\RepositoryGit\\WebApiValidaSenhaForte\\src\\Api.Data\\Data.csproj"
+              },
+              "C:\\Projetos_Israel\\RepositoryGit\\WebApiValidaSenhaForte\\src\\Api.Domain\\Domain.csproj": {
+                "projectPath": "C:\\Projetos_Israel\\RepositoryGit\\WebApiValidaSenhaForte\\src\\Api.Domain\\Domain.csproj"
+              },
+              "C:\\Projetos_Israel\\RepositoryGit\\WebApiValidaSenhaForte\\src\\Api.Service\\Service.csproj": {
+                "projectPath": "C:\\Projetos_Israel\\RepositoryGit\\WebApiValidaSenhaForte\\src\\Api.Service\\Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projetos_Israel\\RepositoryGit\\WebApiValidaSenhaForte\\src\\Api.Data\\Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projetos_Israel\\RepositoryGit\\WebApiValidaSenhaForte\\src\\Api.Data\\Data.csproj",
+        "projectName": "Data",
+        "projectPath": "C:\\Projetos_Israel\\RepositoryGit\\WebApiValidaSenhaForte\\src\\Api.Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\ext.ipariz.PROPAY\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos_Israel\\RepositoryGit\\WebApiValidaSenhaForte\\src\\Api.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ext.ipariz.PROPAY\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Projetos_Israel\\RepositoryGit\\WebApiValidaSenhaForte\\src\\Api.Domain\\Domain.csproj": {
+                "projectPath": "C:\\Projetos_Israel\\RepositoryGit\\WebApiValidaSenhaForte\\src\\Api.Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.30, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projetos_Israel\\RepositoryGit\\WebApiValidaSenhaForte\\src\\Api.Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projetos_Israel\\RepositoryGit\\WebApiValidaSenhaForte\\src\\Api.Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "C:\\Projetos_Israel\\RepositoryGit\\WebApiValidaSenhaForte\\src\\Api.Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\ext.ipariz.PROPAY\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos_Israel\\RepositoryGit\\WebApiValidaSenhaForte\\src\\Api.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ext.ipariz.PROPAY\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[5.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projetos_Israel\\RepositoryGit\\WebApiValidaSenhaForte\\src\\Api.Service\\Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projetos_Israel\\RepositoryGit\\WebApiValidaSenhaForte\\src\\Api.Service\\Service.csproj",
+        "projectName": "Service",
+        "projectPath": "C:\\Projetos_Israel\\RepositoryGit\\WebApiValidaSenhaForte\\src\\Api.Service\\Service.csproj",
+        "packagesPath": "C:\\Users\\ext.ipariz.PROPAY\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos_Israel\\RepositoryGit\\WebApiValidaSenhaForte\\src\\Api.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ext.ipariz.PROPAY\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Projetos_Israel\\RepositoryGit\\WebApiValidaSenhaForte\\src\\Api.Data\\Data.csproj": {
+                "projectPath": "C:\\Projetos_Israel\\RepositoryGit\\WebApiValidaSenhaForte\\src\\Api.Data\\Data.csproj"
+              },
+              "C:\\Projetos_Israel\\RepositoryGit\\WebApiValidaSenhaForte\\src\\Api.Domain\\Domain.csproj": {
+                "projectPath": "C:\\Projetos_Israel\\RepositoryGit\\WebApiValidaSenhaForte\\src\\Api.Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

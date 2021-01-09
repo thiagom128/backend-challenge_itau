@@ -1,0 +1,8 @@
+C:\source\net\Estudos\Projetos\Propay\Framework\Service\Autenticacao\src\Api.Data\bin\Debug\netcoreapp3.1\Data.deps.json
+C:\source\net\Estudos\Projetos\Propay\Framework\Service\Autenticacao\src\Api.Data\bin\Debug\netcoreapp3.1\Data.dll
+C:\source\net\Estudos\Projetos\Propay\Framework\Service\Autenticacao\src\Api.Data\bin\Debug\netcoreapp3.1\Data.pdb
+C:\source\net\Estudos\Projetos\Propay\Framework\Service\Autenticacao\src\Api.Data\obj\Debug\netcoreapp3.1\Data.csprojAssemblyReference.cache
+C:\source\net\Estudos\Projetos\Propay\Framework\Service\Autenticacao\src\Api.Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfoInputs.cache
+C:\source\net\Estudos\Projetos\Propay\Framework\Service\Autenticacao\src\Api.Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfo.cs
+C:\source\net\Estudos\Projetos\Propay\Framework\Service\Autenticacao\src\Api.Data\obj\Debug\netcoreapp3.1\Data.dll
+C:\source\net\Estudos\Projetos\Propay\Framework\Service\Autenticacao\src\Api.Data\obj\Debug\netcoreapp3.1\Data.pdb
