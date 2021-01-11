@@ -116,7 +116,7 @@ Utilizando o Postman, que é meu favorito, siga os seguintes passos para enviar 
 ```
 O retorno do output será **true** quando a senha atender às [regras](#regras) e **false** quando não atender a uma ou mais regras.    
 
-### Dificuldade enfrentas
+### Dificuldade enfrentadas.
 
  - Toda minha carreira é voltada para ERP em especial ERP Protheus da TOTVS com sua linguagem de programação ADVPL, logo meu primeiro desafio foi recapitular processo de orientação objeto e como efetuar a montagem de um API, mas com a ajuda do GOOGLE eu espero ter alçando a qualidade esperada pela equipe e espero que caso não esteja de acordo, me enviem um feedback para que possa evoluir.
  - No problema em si não estava claro se era um GET ou POST.
