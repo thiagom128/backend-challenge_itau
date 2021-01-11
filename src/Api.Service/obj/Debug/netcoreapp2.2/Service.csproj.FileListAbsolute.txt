@@ -52,3 +52,17 @@ C:\Projetos_Israel\RepositoryGit\WebApiValidaSenhaForte\src\Api.Service\obj\Debu
 C:\Projetos_Israel\RepositoryGit\WebApiValidaSenhaForte\src\Api.Service\obj\Debug\netcoreapp2.2\Service.csproj.CopyComplete
 C:\Projetos_Israel\RepositoryGit\WebApiValidaSenhaForte\src\Api.Service\obj\Debug\netcoreapp2.2\Service.dll
 C:\Projetos_Israel\RepositoryGit\WebApiValidaSenhaForte\src\Api.Service\obj\Debug\netcoreapp2.2\Service.pdb
+C:\Users\Thiago\Documents\GitHub\PROJETO_ITAU\backend-challenge_itau\src\Api.Service\bin\Debug\netcoreapp2.2\Service.deps.json
+C:\Users\Thiago\Documents\GitHub\PROJETO_ITAU\backend-challenge_itau\src\Api.Service\bin\Debug\netcoreapp2.2\Service.dll
+C:\Users\Thiago\Documents\GitHub\PROJETO_ITAU\backend-challenge_itau\src\Api.Service\bin\Debug\netcoreapp2.2\Service.pdb
+C:\Users\Thiago\Documents\GitHub\PROJETO_ITAU\backend-challenge_itau\src\Api.Service\bin\Debug\netcoreapp2.2\Data.dll
+C:\Users\Thiago\Documents\GitHub\PROJETO_ITAU\backend-challenge_itau\src\Api.Service\bin\Debug\netcoreapp2.2\Domain.dll
+C:\Users\Thiago\Documents\GitHub\PROJETO_ITAU\backend-challenge_itau\src\Api.Service\bin\Debug\netcoreapp2.2\Data.pdb
+C:\Users\Thiago\Documents\GitHub\PROJETO_ITAU\backend-challenge_itau\src\Api.Service\bin\Debug\netcoreapp2.2\Domain.pdb
+C:\Users\Thiago\Documents\GitHub\PROJETO_ITAU\backend-challenge_itau\src\Api.Service\obj\Debug\netcoreapp2.2\Service.csprojAssemblyReference.cache
+C:\Users\Thiago\Documents\GitHub\PROJETO_ITAU\backend-challenge_itau\src\Api.Service\obj\Debug\netcoreapp2.2\Service.AssemblyInfoInputs.cache
+C:\Users\Thiago\Documents\GitHub\PROJETO_ITAU\backend-challenge_itau\src\Api.Service\obj\Debug\netcoreapp2.2\Service.AssemblyInfo.cs
+C:\Users\Thiago\Documents\GitHub\PROJETO_ITAU\backend-challenge_itau\src\Api.Service\obj\Debug\netcoreapp2.2\Service.csproj.CoreCompileInputs.cache
+C:\Users\Thiago\Documents\GitHub\PROJETO_ITAU\backend-challenge_itau\src\Api.Service\obj\Debug\netcoreapp2.2\Service.csproj.CopyComplete
+C:\Users\Thiago\Documents\GitHub\PROJETO_ITAU\backend-challenge_itau\src\Api.Service\obj\Debug\netcoreapp2.2\Service.dll
+C:\Users\Thiago\Documents\GitHub\PROJETO_ITAU\backend-challenge_itau\src\Api.Service\obj\Debug\netcoreapp2.2\Service.pdb

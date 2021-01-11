@@ -1,8 +1,6 @@
 ﻿using System;
 using CrossCutting.DependencyInjection;
 using Domain.Security;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -33,52 +31,20 @@ namespace Api.Application
             var signingConfigurations = new SigningConfigurations();
             services.AddSingleton(signingConfigurations);
 
-            /*carregando as configurações do token*/
-            var tokenConfigurations = new TokenConfiguration();
-
-
-            new ConfigureFromConfigurationOptions<TokenConfiguration>(
-                Configuration.GetSection("TokenConfigurations")).
-                    Configure(tokenConfigurations);
-
-            services.AddSingleton(tokenConfigurations);
-
-            services.AddAuthentication(authOptions =>
-            {
-                authOptions.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-                authOptions.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-
-            }).AddJwtBearer(bearerOptions =>
-            {
-                var paramsValidation = bearerOptions.TokenValidationParameters;
-                paramsValidation.IssuerSigningKey = signingConfigurations.Key;
-                paramsValidation.ValidateAudience = tokenConfigurations.Audience != string.Empty;
-                paramsValidation.ValidateIssuer = tokenConfigurations.Iusser != string.Empty;
-                paramsValidation.ValidateIssuerSigningKey = true;
-                paramsValidation.ValidateLifetime = true;
-                paramsValidation.ClockSkew = TimeSpan.Zero;
-            });
-
-            services.AddAuthorization(auth => 
-            {
-                auth.AddPolicy("Bearer", new AuthorizationPolicyBuilder()
-                                           .AddAuthenticationSchemes(JwtBearerDefaults.AuthenticationScheme)
-                                           .RequireAuthenticatedUser().Build());
-             });
-
+                 
 
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1",
                 new Info
                 {
-                    Title = "Service Generate Token",
+                    Title = "Service - Validate Password",
                     Version = "v1",
-                    Description = "Api de geração de token",
+                    Description = "Api criada para validação de senha.",
                     Contact = new Contact
                     {
-                        Name = "Departamento de TI",
-                        Url = "suporte@propay.com.br"
+                        Name = "Candidato a Vaga - Thiago Rocco",
+                        Url = "thiagomt.rocco@gmail.com"
                     }
                 });
             });

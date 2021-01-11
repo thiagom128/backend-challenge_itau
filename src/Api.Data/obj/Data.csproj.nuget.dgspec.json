@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos_Israel\\RepositoryGit\\WebApiValidaSenhaForte\\src\\Api.Data\\Data.csproj": {}
+    "C:\\Users\\Thiago\\Documents\\GitHub\\PROJETO_ITAU\\backend-challenge_itau\\src\\Api.Data\\Data.csproj": {}
   },
   "projects": {
-    "C:\\Projetos_Israel\\RepositoryGit\\WebApiValidaSenhaForte\\src\\Api.Data\\Data.csproj": {
+    "C:\\Users\\Thiago\\Documents\\GitHub\\PROJETO_ITAU\\backend-challenge_itau\\src\\Api.Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos_Israel\\RepositoryGit\\WebApiValidaSenhaForte\\src\\Api.Data\\Data.csproj",
+        "projectUniqueName": "C:\\Users\\Thiago\\Documents\\GitHub\\PROJETO_ITAU\\backend-challenge_itau\\src\\Api.Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "C:\\Projetos_Israel\\RepositoryGit\\WebApiValidaSenhaForte\\src\\Api.Data\\Data.csproj",
-        "packagesPath": "C:\\Users\\ext.ipariz.PROPAY\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos_Israel\\RepositoryGit\\WebApiValidaSenhaForte\\src\\Api.Data\\obj\\",
+        "projectPath": "C:\\Users\\Thiago\\Documents\\GitHub\\PROJETO_ITAU\\backend-challenge_itau\\src\\Api.Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\Thiago\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Thiago\\Documents\\GitHub\\PROJETO_ITAU\\backend-challenge_itau\\src\\Api.Data\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ext.ipariz.PROPAY\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Thiago\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -29,9 +26,10 @@
         },
         "frameworks": {
           "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
             "projectReferences": {
-              "C:\\Projetos_Israel\\RepositoryGit\\WebApiValidaSenhaForte\\src\\Api.Domain\\Domain.csproj": {
-                "projectPath": "C:\\Projetos_Israel\\RepositoryGit\\WebApiValidaSenhaForte\\src\\Api.Domain\\Domain.csproj"
+              "C:\\Users\\Thiago\\Documents\\GitHub\\PROJETO_ITAU\\backend-challenge_itau\\src\\Api.Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Thiago\\Documents\\GitHub\\PROJETO_ITAU\\backend-challenge_itau\\src\\Api.Domain\\Domain.csproj"
               }
             }
           }
@@ -44,6 +42,7 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
           "dependencies": {
             "Dapper": {
               "target": "Package",
@@ -70,24 +69,21 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Projetos_Israel\\RepositoryGit\\WebApiValidaSenhaForte\\src\\Api.Domain\\Domain.csproj": {
+    "C:\\Users\\Thiago\\Documents\\GitHub\\PROJETO_ITAU\\backend-challenge_itau\\src\\Api.Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos_Israel\\RepositoryGit\\WebApiValidaSenhaForte\\src\\Api.Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Thiago\\Documents\\GitHub\\PROJETO_ITAU\\backend-challenge_itau\\src\\Api.Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Projetos_Israel\\RepositoryGit\\WebApiValidaSenhaForte\\src\\Api.Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\ext.ipariz.PROPAY\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos_Israel\\RepositoryGit\\WebApiValidaSenhaForte\\src\\Api.Domain\\obj\\",
+        "projectPath": "C:\\Users\\Thiago\\Documents\\GitHub\\PROJETO_ITAU\\backend-challenge_itau\\src\\Api.Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Thiago\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Thiago\\Documents\\GitHub\\PROJETO_ITAU\\backend-challenge_itau\\src\\Api.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ext.ipariz.PROPAY\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Thiago\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -99,6 +95,7 @@
         },
         "frameworks": {
           "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
             "projectReferences": {}
           }
         },
@@ -110,6 +107,7 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
           "dependencies": {
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
@@ -132,7 +130,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
