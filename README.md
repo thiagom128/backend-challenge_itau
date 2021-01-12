@@ -56,9 +56,9 @@ Com a API em execução, em um browser, acesse [https://localhost:44372](https:/
 
 Utilizando o SOAPUI,, que é meu favorito, siga os seguintes passos para enviar o teste:
 
-1)File -> New Rest Project
-2)Escolher POST na área principal da Request1 que irá abrir.
-3)Em Parameters colocar ?password=AbTp9!fok e executar
+- File -> New Rest Project
+- Escolher POST na área principal da Request1 que irá abrir.
+- Em Parameters colocar ?password=AbTp9!fok e executar
 
 Caso o mesmo esteja OK, irá retornar a a resposta abaixo:
 
