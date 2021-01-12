@@ -68,7 +68,7 @@ Caso o mesmo esteja OK, irá retornar a a resposta abaixo:
 
 ### Ideia
 
-Minha ideia foi criar algo simples, uma API com passagem de parametro passaword, foi criado uma classe interface, uma classe de controller e uma classe de Engine para a Model.
+Minha ideia foi criar algo simples, uma API com passagem de parametro password, foi criado uma classe interface, uma classe de controller e uma classe de Engine para a Model.
 
 ### Dificuldade enfrentadas.
 
