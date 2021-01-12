@@ -39,3 +39,4 @@ C:\Users\Thiago\Documents\GitHub\PROJETO_ITAU\backend-challenge_itau\src\Api.Dom
 C:\Users\Thiago\Documents\GitHub\PROJETO_ITAU\backend-challenge_itau\src\Api.Domain\obj\Debug\netcoreapp2.2\Domain.csproj.CoreCompileInputs.cache
 C:\Users\Thiago\Documents\GitHub\PROJETO_ITAU\backend-challenge_itau\src\Api.Domain\obj\Debug\netcoreapp2.2\Domain.dll
 C:\Users\Thiago\Documents\GitHub\PROJETO_ITAU\backend-challenge_itau\src\Api.Domain\obj\Debug\netcoreapp2.2\Domain.pdb
+C:\Users\Thiago\Documents\GitHub\PROJETO_ITAU\backend-challenge_itau\src\Api.Domain\obj\Debug\netcoreapp2.2\Domain.csprojAssemblyReference.cache

@@ -30,7 +30,7 @@ IsValid("AbTp9!fok") // true
 ## Ferramentas
 
 - Visual Studio 
-- Postman 
+- SOAPUI 
 - Terminal
 - Git
 
@@ -95,26 +95,19 @@ Com a API em execução, em um browser, acesse [https://localhost:44372](https:/
 
 ### Enviando uma string para teste
 
-É possível enviar uma string para a validação dos critérios da senha através do próprio swagger, ou utilizando alguma ferramenta REST Client como [Postman](https://www.postman.com/).
+É possível enviar uma string para a validação dos critérios da senha através do próprio swagger, ou utilizando alguma ferramenta REST Client como [SoapUI](https://www.soapui.org/).
 
-Utilizando o Postman, que é meu favorito, siga os seguintes passos para enviar o teste:
-1) Vá em **Preferences**, na guia **General** e desabilite a opção **SSL Certificate verification**. Isso é necessário pois não estamos utilizando um certificado e o postman não fará a requisição se estiver levando isso em conta.
-2) Na área principal crie uma nova aba e no método onde está **GET**, altere para **POST**
-3) No campo para URL insira `https://localhost:5001/api/validasenha`
-4) Nas guias abaixo selecione **Body** e nas opções que aparecerão abaixo selecione **raw**. No combo no final desta linha de opções onde está **Text** altere para **JSON**
-5) No campo de seguinte insira a estrutura com a string que deseja testar
+Utilizando o SOAPUI,, que é meu favorito, siga os seguintes passos para enviar o teste:
+
+1)File -> New Rest Project
+2)Escolher POST na área principal da Request1 que irá abrir.
+3)Em Parameters colocar ?password=AbTp9!fok e executar
+
+Caso o mesmo esteja OK, irá retornar a a resposta abaixo:
+
 ```
-{
-  "input": "AbTp9!fok"
-}
+  <data contentType="text/plain; charset=utf-8" contentLength="7"><![CDATA[Valid]]></data>
 ```
-6) Clique no botão **Send**. A resposta da requisição surgirá em um campo abaixo
-```
-{
-  "output": Valid
-}
-```
-O retorno do output será **true** quando a senha atender às [regras](#regras) e **false** quando não atender a uma ou mais regras.    
 
 ### Dificuldade enfrentas
 
