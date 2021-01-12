@@ -40,54 +40,11 @@ Certifique-se que está com o dotnet core 2.2 Utilizando um terminal execute o s
 ```
 dotnet --version
 ```
-o resultado deve ser uma versão 2.2.xxx
+o resultado deve ser uma versão 5.0.xxx
 
 ### Executando os projetos de teste
 
-Na Solution há dois projetos de teste, um de unidade e outro de integração. Para executá-los, utilizando um termnal, navegue até o diretório raiz do projeto e execute o seguinte comando:
-```
-dotnet test
-```
-Um saída semelhante a seguinte deverá aparecer no terminal com os resultados dos testes
-
-```console
-...
-Starting test execution, please wait...
-
-A total of 1 test files matched the specified pattern.
-Starting test execution, please wait...
-
-A total of 1 test files matched the specified pattern.
-
-Test Run Successful.
-Total tests: 6
-     Passed: 6
- Total time: 1.0125 Seconds
-
-Test Run Successful.
-Total tests: 11
-     Passed: 11
- Total time: 1.2782 Seconds
-```
-
-### Executando o projeto da API
-
-Para execução do projeto da API, utilizando um terminal, navegue até o diretório raiz do projeto e execute o seguinte comando:
-```
-dotnet run --project ./src/ValidaSenha.csproj
-```
-A seguinte informação deverá aparecer no terminal:
-```console
-info: Microsoft.Hosting.Lifetime[0]
-      Now listening on: https://localhost:5001
-info: Microsoft.Hosting.Lifetime[0]
-      Now listening on: http://localhost:5000
-info: Microsoft.Hosting.Lifetime[0]
-      Application started. Press Ctrl+C to shut down.
-info: Microsoft.Hosting.Lifetime[0]
-      Hosting environment: Development
-info: Microsoft.Hosting.Lifetime[0]
-```
+Não consegui criar o projeto de testes para o projeto, será feito posteriormente.
 
 ### Consultando documentação da API(Swagger)
 

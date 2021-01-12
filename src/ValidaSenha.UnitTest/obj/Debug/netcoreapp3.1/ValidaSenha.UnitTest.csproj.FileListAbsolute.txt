@@ -1,4 +1,0 @@
-C:\Users\Thiago\Documents\GitHub\PROJETO_ITAU\backend-challenge_itau\src\ValidaSenha.UnitTest\obj\Debug\netcoreapp3.1\ValidaSenha.UnitTest.csprojAssemblyReference.cache
-C:\Users\Thiago\Documents\GitHub\PROJETO_ITAU\backend-challenge_itau\src\ValidaSenha.UnitTest\obj\Debug\netcoreapp3.1\ValidaSenha.UnitTest.AssemblyInfoInputs.cache
-C:\Users\Thiago\Documents\GitHub\PROJETO_ITAU\backend-challenge_itau\src\ValidaSenha.UnitTest\obj\Debug\netcoreapp3.1\ValidaSenha.UnitTest.AssemblyInfo.cs
-C:\Users\Thiago\Documents\GitHub\PROJETO_ITAU\backend-challenge_itau\src\ValidaSenha.UnitTest\obj\Debug\netcoreapp3.1\ValidaSenha.UnitTest.csproj.CoreCompileInputs.cache

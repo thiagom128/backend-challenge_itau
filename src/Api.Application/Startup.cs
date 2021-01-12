@@ -9,6 +9,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 using Swashbuckle.AspNetCore.Swagger;
+using Microsoft.Extensions.Hosting;
+using System.IO;
+using System.Reflection;
 
 
 
@@ -29,9 +32,7 @@ namespace Api.Application
             ConfigureService.ConfigureDependenciesService(services);
        
             var signingConfigurations = new SigningConfigurations();
-            services.AddSingleton(signingConfigurations);
-
-                 
+            services.AddSingleton(signingConfigurations);                 
 
             services.AddSwaggerGen(c =>
             {
@@ -54,7 +55,7 @@ namespace Api.Application
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, Microsoft.AspNetCore.Hosting.IHostingEnvironment env)
         {
             if (env.IsDevelopment())
             {
